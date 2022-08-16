@@ -1,0 +1,10 @@
+{
+  "extends": ["react-app"],
+  "globals": {
+    "chrome": "readonly"
+  },
+  "ignorePatterns": ["dist/**"],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
+}

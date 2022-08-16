@@ -1,0 +1,57 @@
+header {
+  text-align: center;
+}
+
+.clock-btn-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-btn {
+  background-color: transparent;
+  padding: 14px 20px;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border-radius: 500px;
+  font-weight: 600;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.clock-in {
+  color: #72f1b8;
+  border: solid 2px #72f1b8;
+}
+.clock-in:hover {
+  background-color: #72f1b822;
+}
+
+.clock-out {
+  color: #ea4033;
+  border: solid 2px #ea4033;
+}
+.clock-out:hover {
+  background-color: #ea403322;
+}
+
+#logout-btn {
+  background-color: transparent !important;
+  color: #ea4033 !important;
+  font-weight: 400;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  width: fit-content;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
